@@ -5,7 +5,7 @@ using UnityEngine;
 public class Arrayss : MonoBehaviour
 {
     public GameObject[] players;
-
+    
 
     // Start is called before the first frame update
     void Start()

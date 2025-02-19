@@ -6,9 +6,17 @@ public class PlayerManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
+    { }
+        public static int playerCount;
+    }
+
+   class program
+{
+    public static void Main(string[] args)
     {
-        //You can access a static variable by using the class name
-        //and the dot operator.
-        int x = Player.playerCount;
+        int x = PlayerManager.playerCount;
     }
 }
+
+
+

@@ -14,7 +14,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static void Main(string[] args)
     {
-        int x = PlayerManager.playerCount;
+        int x = Player.playerCount;
     }
 }
 

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -7,14 +6,14 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { }
-        public static int playerCount;
+        class Player
+    {
+        public static int playerCount = 0;
     }
 
-   class program
-{
-    public static void Main(string[] args)
+    class myClass
     {
-        int x = Player.playerCount;
+        public static void Add(int a, int b);
     }
 }
 

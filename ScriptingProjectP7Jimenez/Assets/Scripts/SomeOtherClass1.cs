@@ -7,7 +7,7 @@ public class SomeOtherClass1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SomeOtherClass1 myClass = new SomeClass();
+        SomeClass myClass = new SomeClass();
 
         //In order to use this method you must
         //tell the method what type to replace

@@ -7,12 +7,11 @@ public class SomeOtherClass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        SomeClass myClass = new SomeClass();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //The specific Add method called will depend on
+        //the arguments passed in.
+        myClass.Add(1, 2);
+        myClass.Add("Hello ", "World");
     }
 }

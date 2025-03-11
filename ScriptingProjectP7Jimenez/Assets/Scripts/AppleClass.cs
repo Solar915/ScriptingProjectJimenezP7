@@ -21,7 +21,7 @@ public class Apple : FruitClass
     public Apple(string newColor) : base(newColor) 
     {
         //Notice how this constructor doesn't set the color
-        //since tyhe base constructor sets the color that
+        //since the base constructor sets the color that
         //is passed as an argument.
         Debug.Log("2nd Apple Constructor Called");
     }
